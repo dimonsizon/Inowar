@@ -791,6 +791,43 @@ tr.pager td {
     height: 617px;
 }
 
+    .text-container {
+        margin: 375px 0 0 399px;
+        overflow: hidden;
+    }
+
+        .main .text-container .text-block {
+            float: left;
+        }
+
+        .about-us .text-container .text-block,
+        .about-project .text-container .text-block {
+            margin-bottom: 15px;
+        }
+
+        .text-container .text-block.right {
+            margin-left: 250px;
+        }
+
+        .main p,
+        .about-us p,
+        .about-project p {
+            margin: 0;
+            color: #000;
+            font-size: 13px;
+            font-family: Calibri;
+            line-height: 16px;
+        }
+
+        .main p {
+            width: 240px;
+        }
+
+        .about-us p,
+        .about-project p {
+            width: 730px;
+        }
+
 .main {
     background: url(images/1.jpg) no-repeat;
 }
